@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <article>
+            <h2>Formulário de Inscrição</h2>
+            <p>Coloque seus dados abaixo:</p>
+            <fieldset>
+                <form>
+                    <label>Nome:</label><br>
+                    <input type="text" placeholder="Insira seu nome" maxlength="100" size="50"><br>
+                    <label>Data de Nascimento:</label><br>
+                    <input type="date"><br>
+                    <label>Endereço:</label><br>
+                    <input type="text" placeholder="Insira seu Endereço" maxlength="100" size="50"><br>
+                    <label>Gênero</label><br>
+                    <input type="radio" value="HomemCis" name="genero">
+                    <label for="HomemCis">Homem Cisgênero</label><br>
+                    <input type="radio" value="MulherCis" name="genero">
+                    <label for="MulherCis">Mulher Cisgênero</label><br>
+                    <input type="radio" value="HomemTrans" name="genero">
+                    <label for="HomemTrans">Homem Transgênero</label><br>
+                    <input type="radio" value="MulherTrans" name="genero">
+                    <label for="MulherTrans">Mulher Transgênero</label><br>
+                    <input type="radio" value="NB" name="genero">
+                    <label for="NB">Não-Binário</label><br>
+                    <input type="radio" value="outro" name="genero">
+                    <label for="outro">Outro:</label>
+                    <input type="text"><br>
+                </form>
+            </fieldset>
+        </article>
+    </main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#profilepic {
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: navy;
+    background-color: antiquewhite;
+}
