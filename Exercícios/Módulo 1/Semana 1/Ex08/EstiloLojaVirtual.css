@@ -1,0 +1,22 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(49,173,49);
+    background: linear-gradient(324deg, rgba(49,173,49,1) 0%, rgba(32,147,23,1) 47%, rgba(22,255,0,1) 100%);
+}
+
+header {
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 27px;
+}
+
+.card {
+    text-align: center;
+    background-color: lawngreen;
+    padding: 27px;
+    border-radius: 9px;
+}
